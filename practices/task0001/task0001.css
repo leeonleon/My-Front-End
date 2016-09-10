@@ -2,3 +2,104 @@ h1{color:#0000FF;}
 h2{font-size:14px;}
 p{color:#FFFF00; font-size:12px; background:#000000;}
 img{border:2px solid #FF0000;}
+#redDiv1{
+	background:#FF0000;
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+#redDiv2{
+	width:960px;
+	position:relative;
+	left:50%;
+	text-align:center;
+}
+#redDiv2_{
+	background:#FF0000;
+	position:relative;
+	left:-50%;
+}
+/* 圆角矩形 */
+#wrap{
+	margin-bottom:10px;
+}
+#wrap-1{
+	height:1px;
+	margin:0 5px;
+	background:#000;
+}
+#wrap-2{
+	border-left:2px solid #000;
+	border-right:2px solid #000;
+	margin:0 3px;
+	height:1px;
+}
+#wrap-3{
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	margin:0 2px;
+	height:1px;
+}
+#wrap-4{
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	margin:0 1px;
+	height:2px;
+}
+#wrap-5{
+	margin:0;
+	height:40px;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+/* 两列布局 */
+#div1{
+	margin-bottom:10px;
+}
+#div1-a{
+	float:left;
+	background:#F00;
+	width:200px;
+	height:50px;
+}
+#div1-b{
+	background:#00F;
+	height:50px;
+}
+#div1-c{
+	background:#FF0;
+	height:50px;
+}
+/* 三列布局 */
+#div2{
+	margin-bottom:10px;
+}
+#div2-a{
+	float:left;
+	background:#F00;
+	width:200px;
+	height:50px;
+}
+#div2-b{
+	margin:0 200px;
+	background:#00F;
+	height:50px;
+}
+#div2-c{
+	float:right;
+	background:#FF0;
+	width:200px;
+	height:50px;
+}
+/* 浮动布局 */
+#div3{
+	margin-bottom:10px;
+	background:#F00;
+}
+.blueRect{
+	display:inline-block;
+	width:150px;
+	height:50px;
+	background:#00F;
+	margin:1em;
+}
