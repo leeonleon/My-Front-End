@@ -1,0 +1,12 @@
+body {
+    background: #e2e2e2;
+}
+/* header */
+.header {
+    background:#800080;
+    width: 100%;
+    height:80px;
+}
+.font-white {
+    color:#FFF;
+}
