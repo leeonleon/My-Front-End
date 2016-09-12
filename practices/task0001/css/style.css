@@ -1,12 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, sans-serif;
+}
 body {
     background: #e2e2e2;
 }
 /* header */
 .header {
-    background:#800080;
+    position: relative;
+    background: #800080;
     width: 100%;
-    height:80px;
+    height: 80px;
 }
-.font-white {
-    color:#FFF;
+.header-div {
+    position: relative;
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+}
+.header-h1 {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    margin: 0;
+}
+.list {
+    position: absolute;
+    list-style: none;
+    right: 0;
+    bottom: 5px;
+    margin: 0;
+}
+.list li {
+    float: left;
+    color: #fff;
+    font-family: "宋体";
+    font-size: 14px;
+    margin: 0 14px;
+}
+.icon-github {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+@media (max-width: 980px) {
+    .icon-github {
+        display:none;
+    }
 }
