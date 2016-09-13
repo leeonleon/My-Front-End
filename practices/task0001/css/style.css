@@ -132,3 +132,34 @@ body {
     text-indent: 2em;
     margin: 0 30px 25px;
 }
+/* self-introduction */
+.self-introduction {
+    position: relative;
+    background: #fff;
+    margin-top: 100px;
+    height: 500px;
+}
+.self-introduction-wrap {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.avatar {
+    border-radius: 50%;
+    width: 160px;
+    margin-top: -50px;
+}
+.self-introduction h3 {
+    color: #000;
+    margin: 50px 0;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+.self-introduction p {
+    font-size: 14px;
+    width: 600px;
+    text-indent: 2em;
+    margin: 0 auto;
+    text-align: left;
+}
