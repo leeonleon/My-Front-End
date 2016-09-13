@@ -96,22 +96,39 @@ body {
     margin-top: 10px;
 }
 .center-wrap {
-    position: absolute;
+    width: 980px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .center-1 {
     background: #fff;
     width: 320px;
+    float: left;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
 }
 .center-2 {
     background: #fff;
     width: 320px;
+    float: left;
+    padding-bottom: 10000px;
+    margin: 0 10px -10000px;
 }
 .center-3 {
     background: #fff;
     width: 320px;
+    float: left;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
 }
 .center-img {
     width: 300px;
     height: 180px;
+    margin: 10px 10px 15px;
+}
+.center-text {
+    font-size: 12px;
+    line-height: 170%;
+    text-indent: 2em;
+    margin: 0 30px 25px;
 }
