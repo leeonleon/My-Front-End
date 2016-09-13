@@ -163,3 +163,9 @@ body {
     margin: 0 auto;
     text-align: left;
 }
+/* footer */
+footer {
+    background: #000;
+    height: 450px;
+    text-align: center;
+}
