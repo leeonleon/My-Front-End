@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    font-family: Microsoft YaHei, sans-serif;
 }
 body {
     background: #e2e2e2;
@@ -39,7 +39,7 @@ a {
     margin: 0;
 }
 .list li {
-    float: left;
+    float: right;
     color: #fff;
     font-family: "宋体";
     font-size: 14px;
@@ -230,6 +230,7 @@ footer {
 .passage-part {
     height: 100%;
     width: 630px;
+    float: left;
 }
 .passage-wrap {
     margin-bottom: 10px;
@@ -317,4 +318,214 @@ footer {
 }
 .page-1 {
     background: #ba55d3;
+}
+/* blog-right-part */
+.right-part {
+    float: right;
+    width: 340px;
+}
+.right-part-search {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+.right-part-keywords {
+    width: 300px;
+    height: 40px;
+    outline: medium;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 144px;
+    border: #e2e2e2 1px solid;
+    font-size: 16px;
+}
+.right-part-keywords:focus {
+    background-image: none;
+}
+.right-part-submit {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    right: 20px;
+    top: 30px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.right-part-type {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.right-part-type-html {
+    background: #fff;
+    border-left: #DDA0DD 5px solid;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.right-part-type-css {
+    background: #fff;
+    border-left: #800080 5px solid;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.right-part-type-js {
+    background: #fff;
+    border-left: #DDA0DD 5px solid;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.right-part-type-else {
+    background: #fff;
+    border-left: #DDA0DD 5px solid;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.right-part-type a {
+    color: #808080;
+}
+.right-part-type-html:hover {
+    border-color: #800080;
+}
+.right-part-type-js:hover {
+    border-color: #800080;
+}
+.right-part-type-else:hover {
+    border-color: #800080;
+}
+.right-part-calendar {
+    background: #fff;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.right-part-date {
+    font-size: 20px;
+    line-height: 50px;
+    color: #800080;
+}
+.right-part-date-table {
+    margin: 0 auto;
+    width: 260px;
+    line-height: 200%;
+    border-collapse:collapse;
+    color: #c0c0c0;
+}
+.right-part-date-table td{
+    border-bottom: 1px #c0c0c0 solid;
+}
+.date-r4-d5 {
+    background: #800080;
+    color: #fff;
+}
+.date-r5-d2,
+.date-r6-d4 {
+    color: #800080;
+}
+.right-part-tags {
+    background: #fff;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.right-part-tags-title {
+    color: #c0c0c0;
+    font-size: 17px;
+    margin: 0 0 10px 20px;
+    padding-top: 15px;
+}
+.rigth-part-tags-1 {
+    display: inline;
+    color: #800080;
+    font-size: 38px;
+    margin-left: 20px;
+}
+.rigth-part-tags-2 {
+    display: inline;
+    color: #800080;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.rigth-part-tags-3 {
+    display: inline;
+    color: #800080;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.rigth-part-tags-4 {
+    display: inline;
+    color: #800080;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.rigth-part-tags-5 {
+    display: inline;
+    color: #800080;
+    font-size: 38px;
+    margin-left: 5px;
+}
+.rigth-part-tags-6 {
+    display: inline;
+    color: #800080;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.rigth-part-tags-7 {
+    display: inline;
+    color: #800080;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.rigth-part-tags-8 {
+    display: inline;
+    color: #800080;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.rigth-part-tags-9 {
+    display: inline;
+    color: #800080;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.rigth-part-tags-10 {
+    display: inline;
+    color: #800080;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.rigth-part-tags-11 {
+    display: inline;
+    color: #800080;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.rigth-part-tags-12 {
+    display: inline;
+    color: #800080;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.rigth-part-tags-13 {
+    display: inline;
+    color: #800080;
+    font-size: 23px;
+    margin-left: 5px;
 }
