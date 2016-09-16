@@ -5,7 +5,6 @@
 }
 body {
     background: #e2e2e2;
-    min-width: 980px;
 }
 a {
     text-decoration:none;
@@ -533,5 +532,255 @@ footer {
 /* gallery.html */
 .gallery-center {
     width: 100%;
-    height: 1423px;
+    height: 1350px;
+}
+.gallery-content {
+    width: 980px;
+    margin: 75px auto 0;
+}
+.gallery-falls {
+    position: relative;
+    height: 800px;
+    width: 630px;
+    background: #fff;
+    float: left;
+}
+.falls-tabs {
+    list-style: none;
+    margin-top: -38px;
+    font-size: 0;
+}
+.falls-tabs li {
+    display: inline;
+    font-size: 10px;
+    background: #fff;
+    padding: 15px 20px 20px;
+    margin-right: 1px;
+}
+.falls-tabs a {
+    color: #000;
+}
+.tabs-all {
+    border-top: 5px #8470ff solid;
+}
+.tabs-all:hover {
+    border-top: 5px #191970 solid;
+    border-bottom: 2px #fff solid;
+}
+.tabs-js {
+    border-top: 5px #ffb6c1 solid;
+}
+.tabs-js:hover {
+    border-top: 5px #c71585 solid;
+    border-bottom: 2px #fff solid;
+}
+.tabs-ui {
+    border-top: 5px #90ee90 solid;
+}
+.tabs-ui:hover {
+    border-top: 5px #006400 solid;
+    border-bottom: 2px #fff solid;
+}
+.tabs-fw {
+    border-top: 5px #ffa07a solid;
+}
+.tabs-fw:hover {
+    border-top: 5px #ff6347 solid;
+    border-bottom: 2px #fff solid;
+}
+.tabs-app {
+    border-top: 5px #ffff00 solid;
+}
+.tabs-app:hover {
+    border-top: 5px #ffd700 solid;
+    border-bottom: 2px #fff solid;
+}
+.falls-tag {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px #fff solid;
+    border-radius : 15px;
+    float: left;
+    margin: 0 10px 100px 0;
+}
+.falls-h2 {
+    font-size: 13px;
+}
+.falls-p {
+    font-size: 12px;
+}
+.falls-img {
+    width: 100%;
+    height: 100%;
+    outline-width:0px; 
+    vertical-align:top;
+}
+.falls-1 {
+    width: 260px;
+    height: 160px;
+    margin: 40px 0 0 15px;
+    float: left;
+}
+.falls-1-content {
+    width: 240px;
+    height: 25%;
+    background: #c71585;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-2 {
+    width: 160px;
+    height: 140px;
+    margin: 40px 0 0 10px;
+    float: left;
+}
+.falls-2-content {
+    width: 140px;
+    height: 25%;
+    background: #006400;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-3 {
+    width: 160px;
+    height: 150px;
+    margin: 40px 0 0 10px;
+    float: left;
+}
+.falls-3-content {
+    width: 140px;
+    height: 25%;
+    background: #daa520;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-4 {
+    width: 160px;
+    height: 150px;
+    margin: 55px 0 0 10px;
+    float: left;
+}
+.falls-4 img{
+    width: 100%;
+    height: 80%;
+    outline-width:0px; 
+    vertical-align:top;
+}
+.falls-4-content {
+    width: 140px;
+    height: 50%;
+    background: #c71585;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-5 {
+    width: 160px;
+    height: 240px;
+    margin: 70px 0 0 10px;
+    float: left;
+}
+.falls-5 img{
+    width: 100%;
+    height: 50%;
+    outline-width:0px; 
+    vertical-align:top;
+}
+.falls-5-content {
+    width: 140px;
+    height: 50%;
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-6 {
+    width: 125px;
+    height: 120px;
+    margin: -230px 0 0 15px;
+    float: left;
+}
+.falls-6-content {
+    width: 100% - 20px;
+    height: 80%;
+    background: #daa520;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-7 {
+    width: 125px;
+    height: 100px;
+    margin: -230px 0 0 150px;
+    float:left;
+}
+.falls-7-content {
+    width: 100% - 20px;
+    height: 80%;
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-8 {
+    width: 125px;
+    height: 100px;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+.falls-8-content {
+    width: 100% - 20px;
+    height: 50%;
+    background: #c71585;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-9 {
+    width: 125px;
+    height: 120px;
+    margin: -20px 0 0 10px;
+    float: left;
+}
+.falls-9-content {
+    width: 100% - 20px;
+    height: 80%;
+    background: #006400;
+    color: #fff;
+    padding: 10px 10px;
+}
+.falls-10 {
+    width: 160px;
+    height: 110px;
+    margin: -30px 0 0 10px;
+    float: left;
+}
+.falls-10-content {
+    width: 140px;
+    height: 80%;
+    background: #daa520;
+    color: #fff;
+    padding: 10px 10px;
+}
+.watch-more {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    bottom: -40px;
+}
+.watch-more a {
+    color: #808080;
+}
+.ranking {
+    position: relative;
+    background: #fff;
+    width: 340px;
+    height: 300px;
+}
+.ranking-title {
+    position: absolute;
+    color: #808080;
+    top: 15px;
+    left: 15px;
 }
