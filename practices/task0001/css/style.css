@@ -855,3 +855,224 @@ footer {
     background: #fff;
     margin: 1px 1px 1px 0;
 }
+
+/* About.html */
+.about-center {
+    width: 100%;
+    height: 1400px;
+}
+.about-content {
+    position: relative;
+    width: 980px;
+    height: 1300px;
+    margin: 100px auto 0;
+}
+.about-left {
+    position: relative;
+    background: #fff;
+    width: 487px;
+    height: 100%;
+    float: left;
+}
+.about-right {
+    position: relative;
+    background: #fff;
+    width: 487px;
+    height: 100%;
+    float: right;
+}
+.about-name {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: 25px;
+}
+.about-cont {
+    position: absolute;
+    top: 400px;
+    right: 70px;
+    font-size: 25px;
+}
+.about-edu {
+    position: absolute;
+    top: 600px;
+    right: 70px;
+    font-size: 25px;
+}
+.about-work {
+    position: absolute;
+    top: 980px;
+    right: 70px;
+    font-size: 25px;
+}
+.about-introduction {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+    text-indent: 2em;
+    line-height: 170%;
+}
+.about-cont-1 {
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+}
+.about-cont-2 {
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+}
+.about-cont-3 {
+    position: absolute;
+    top: 440px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+}
+.about-edu-1 {
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+}
+.about-edu-2 {
+    position: absolute;
+    top: 680px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+    line-height: 170%;
+}
+.about-edu-3 {
+    position: absolute;
+    top: 780px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+    line-height: 170%;
+}
+.about-work-1 {
+    position: absolute;
+    top: 980px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+    line-height: 170%;
+}
+.about-work-2 {
+    position: absolute;
+    top: 1080px;
+    left: 70px;
+    width: 320px;
+    font-size: 13px;
+    line-height: 170%;
+}
+.about-avatar {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 85px;
+    border: 10px #e2e2e2 solid;
+    left: 405px;
+    top: -60px;
+}
+.about-cont-pic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 82px;
+    border: 4px #e2e2e2 solid;
+    left: 446px;
+    top: 290px;
+}
+.about-edu-pic {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 82px;
+    border: 4px #e2e2e2 solid;
+    left: 446px;
+    top: 480px;
+}
+.about-2011 {
+    position: absolute;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    left: 451px;
+    top: 600px;
+}
+.about-2014 {
+    position: absolute;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    left: 451px;
+    top: 680px;
+}
+.about-2017 {
+    position: absolute;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    left: 451px;
+    top: 780px;
+}
+.about-work-pic {
+    position: absolute;
+    background: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 82px;
+    border: 4px #e2e2e2 solid;
+    left: 446px;
+    top: 860px;
+}
+.about-work-2016{
+    position: absolute;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    left: 451px;
+    top: 980px;
+}
+.about-work-2017 {
+    position: absolute;
+    background: #fff;
+    color: #808080;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    left: 451px;
+    top: 1080px;
+}
