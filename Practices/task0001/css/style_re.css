@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 14px "宋体";
+    color: #fff;
+}
+
+body {
+    min-width: 980px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #483d8b;
+}
+
+a {
+    text-decoration: none;
+}
+/* header */
+.header-inner {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+}
+
+.header-inner p {
+    position: absolute;
+    bottom: 5px;
+    font: 35px "Microsoft YaHei", sans-serif;
+    line-height: 35px;
+}
+
+.header-inner ul {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    list-style: none;
+}
+
+.header-inner li {
+    display: inline;
+    margin-left: 28px;
+}
+
+.header-github {
+    position: absolute;
+    right: 10px;
+    bottom: -3px;
+}
+
+@media (max-width: 980px) {
+    .header-github {
+        display: none;
+    }
+}
+
+/* banner */
