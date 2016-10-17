@@ -21,6 +21,18 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+a:hover {
+    text-decoration:underline;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
 /* header */
 .header-inner {
     position: relative;
@@ -36,15 +48,13 @@ a {
     line-height: 35px;
 }
 
-.header-inner ul {
+.header-ul {
     position: absolute;
     right: 0;
     bottom: 5px;
-    list-style: none;
 }
 
-.header-inner li {
-    display: inline;
+.header-ul li {
     margin-left: 28px;
 }
 
@@ -151,4 +161,35 @@ a {
     text-align: left;
     text-indent: 2em;
     line-height: 1.5;
+}
+
+/* footer */
+footer {
+    padding-top: 10px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+.footer-ul li {
+    margin: 0 20px;
+}
+
+footer hr {
+    margin: 10px 0 40px;
+    border: 1px #696969 solid;
+}
+
+.footer-tb {
+    margin: 0 auto 100px;
+    text-align: left;
+    border-spacing: 110px 5px;
+}
+
+.footer-tb th {
+    padding-bottom: 30px;
+}
+
+footer p {
+    margin-bottom: 15px;
 }
