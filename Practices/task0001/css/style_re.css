@@ -193,3 +193,70 @@ footer hr {
 footer p {
     margin-bottom: 15px;
 }
+
+/* blog_re.html */
+.wrap-main {
+    margin: 20px auto;
+    width: 980px;
+}
+
+.main-left {
+    width: 700px;
+}
+
+.blog-content {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.blog-content h1 {
+    font-size: 16px;
+    color: #7b68ee;
+}
+
+.blog-content h2 {
+    margin: 8px 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.blog-content-article {
+    font-size: 13px;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+.blog-content-sign {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: right;
+    color: #A9A9A9;
+}
+
+.blog-content-date {
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #483d8b;
+}
+
+.blog-content-type {
+    position: absolute;
+    top: 55px;
+    left: -50px;
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #7b68ee;
+}
