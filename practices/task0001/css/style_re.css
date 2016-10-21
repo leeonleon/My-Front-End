@@ -200,7 +200,7 @@ footer p {
     margin-bottom: 15px;
 }
 
-/* blog_re.html */
+/* blog */
 .wrap-main {
     margin: 20px auto;
     width: 980px;
@@ -433,4 +433,85 @@ footer p {
 .blog-tags-4 {
     font: 13px "Microsoft YaHei", sans-serif;
     color: #483d8b;
+}
+
+/* gallery */
+.gallery-left {
+    float: left;
+    width: 660px;
+    padding: 20px;
+    color: #fff;
+    background: #fff;
+}
+
+.gallery-1 {
+    margin: 0 10px 10px 0;
+    width: 320px;
+    background: #483d8b;
+}
+
+.gallery-2 {
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #e9967a;
+}
+
+.gallery-3 {
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #00CED1;
+}
+
+.gallery-4 {
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #00CED1;
+}
+
+.gallery-5 {
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #ff8c00;
+}
+
+.gallery-6 {
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #483d8b;
+}
+
+.gallery-1 img {
+    width: 320px;
+}
+
+.gallery-2 img,
+.gallery-3 img,
+.gallery-4 img,
+.gallery-5 img,
+.gallery-6 img{
+    width: 155px;
+}
+
+.gallery-left-flag {
+    float: left;
+    margin: 10px;
+    width: 26px;
+    font: 20px  "Microsoft YaHei", sans-serif;
+    text-align: center;
+    border: 1px #fff solid;
+    border-radius: 13px;
+}
+
+.gallery-left-content {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.gallery-left-content h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.gallery-left-content p {
+    line-height: 1.5;
 }
