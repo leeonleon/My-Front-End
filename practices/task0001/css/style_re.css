@@ -201,7 +201,13 @@ footer p {
 }
 
 .main-left {
+    float: left;
     width: 700px;
+}
+
+.main-right {
+    float: right;
+    width: 270px;
 }
 
 .blog-content {
@@ -232,7 +238,7 @@ footer p {
     margin-top: 20px;
     font-size: 12px;
     text-align: right;
-    color: #A9A9A9;
+    color: #a9a9a9;
 }
 
 .blog-content-date {
@@ -282,9 +288,40 @@ footer p {
 }
 
 .page-more {
-    color: #A9A9A9;
+    color: #a9a9a9;
 }
 
 .main-left a:hover {
     text-decoration: none;
+}
+
+.search {
+    padding: 20px;
+    background: #fff;
+}
+
+.search form {
+    border: 1px #D3D3D3 solid;
+}
+
+.search-text {
+    float: left;
+    width: 180px;
+    height: 40px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.search input:focus {
+    background-image: none;
+}
+
+.search-submit {
+    width: 48px;
+    height: 40px;
+    font: 20px 'Arial Black', Gadget, sans-seri;
+    color: #fff;
+    background: #DCDCDC;
+    border: 0;
 }
