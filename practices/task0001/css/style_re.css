@@ -26,6 +26,11 @@ a:hover {
     text-decoration:underline;
 }
 
+.blog-tags a:hover,
+.blog-type a:hover {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
@@ -165,6 +170,7 @@ li {
 
 /* footer */
 footer {
+    clear: both;
     padding-top: 10px;
     text-align: center;
     background: #000;
@@ -268,7 +274,7 @@ footer p {
 }
 
 .main-left ul {
-    margin: 25px;
+    margin: 25px 0 200px;
     text-align: center;
 }
 
@@ -324,4 +330,107 @@ footer p {
     color: #fff;
     background: #DCDCDC;
     border: 0;
+}
+
+.blog-type {
+    margin-top: 10px;
+}
+
+.blog-type li {
+    display: block;
+    padding: 20px;
+    margin-bottom: 1px;
+    color: #666;
+    border-left: 5px #87CEFA solid;
+    background: #fff;
+}
+
+.blog-type-css {
+    border-color: #483d8b !important;
+}
+
+.blog-type li:hover {
+    border-color: #483d8b !important;
+}
+
+.calendar {
+    padding: 10px 0 20px;
+    margin-top: 10px;
+    text-align: center;
+    background: #fff;
+}
+
+.calendar-lmonth {
+    float: left;
+    margin-left: 35px;
+}
+
+.calendar-tmonth {
+    margin: 0 60px;
+    float: left;
+}
+
+.calendar-nmonth {
+    float: right;
+    margin-right: 35px;
+}
+
+.calendar p {
+    color: #483d8b;
+    font: 15px "Microsoft YaHei", sans-serif;
+}
+
+.calendar table {
+    width: 200px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    color: #c0c0c0;
+    font: 15px "Microsoft YaHei", sans-serif;
+    line-height: 2;
+    border-bottom: 1px #c0c0c0 solid;
+}
+
+.calendar-today {
+    color: #fff !important;
+    background: #483d8b;
+}
+
+.calendar-flag {
+    color: #483d8b !important;
+}
+
+.blog-tags {
+    padding: 10px 20px 40px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.blog-tags p {
+    margin-bottom: 10px;
+    font: 16px "Microsoft YaHei", sans-serif;
+    color: #666;
+}
+
+.blog-tags-1 {
+    font: 30px "Microsoft YaHei", sans-serif;
+    color: #483d8b;
+}
+
+.blog-tags-2 {
+    font: 20px "Microsoft YaHei", sans-serif;
+    color: #483d8b;
+}
+
+.blog-tags-3 {
+    font: 15px "Microsoft YaHei", sans-serif;
+    color: #483d8b;
+}
+
+.blog-tags-4 {
+    font: 13px "Microsoft YaHei", sans-serif;
+    color: #483d8b;
 }
