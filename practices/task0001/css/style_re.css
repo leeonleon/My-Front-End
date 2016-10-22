@@ -436,48 +436,167 @@ footer p {
 }
 
 /* gallery */
+.gallery-wrap {
+    margin: 80px auto 0;
+    width: 980px;
+}
+
 .gallery-left {
+    position: relative;
     float: left;
     width: 660px;
+    height: 810px;
     padding: 20px;
+    margin-bottom: 200px;
     color: #fff;
     background: #fff;
 }
 
+.gallery-left ul {
+    position: relative;
+    top: -77px;
+    left: -20px;
+}
+
+.gallery-left li{
+    float: left;
+    padding: 15px 20px 20px;
+    margin-right: 2px;
+    background: #fff;
+}
+
+.gallery-wrap ul a {
+    color: #000;
+}
+
+.gallery-option-all {
+    border-top: 5px #8470ff solid;
+    border-bottom: 2px #fff solid;
+}
+
+.gallery-option-all:hover {
+    border-top: 5px #191970 solid;
+}
+
+.gallery-option-js {
+    border-top: 5px #add8e6 solid;
+}
+
+.gallery-option-js:hover {
+    border-top: 5px #483d8b solid;
+    border-bottom: 2px #fff solid;
+}
+
+.gallery-option-ui {
+    border-top: 5px #ffb6c1 solid;
+}
+
+.gallery-option-ui:hover {
+    border-top: 5px #e9967a solid;
+    border-bottom: 2px #fff solid;
+}
+
+.gallery-option-fw {
+    border-top: 5px #ffa07a solid;
+}
+
+.gallery-option-fw:hover {
+    border-top: 5px #ff8c00 solid;
+    border-bottom: 2px #fff solid;
+}
+
+.gallery-option-app {
+    border-top: 5px #e0ffff solid;
+}
+
+.gallery-option-app:hover {
+    border-top: 5px #00ced1 solid;
+    border-bottom: 2px #fff solid;
+}
+
 .gallery-1 {
+    overflow: visible;
+    position: absolute;
     margin: 0 10px 10px 0;
     width: 320px;
     background: #483d8b;
 }
 
 .gallery-2 {
+    position: absolute;
+    left: 350px;
     margin: 0 10px 10px 0;
     width: 155px;
     background: #e9967a;
 }
 
 .gallery-3 {
+    position: absolute;
+    left: 515px;
     margin: 0 10px 10px 0;
     width: 155px;
-    background: #00CED1;
+    background: #00ced1;
 }
 
 .gallery-4 {
+    position: absolute;
+    top: 330px;
     margin: 0 10px 10px 0;
     width: 155px;
-    background: #00CED1;
+    background: #00ced1;
 }
 
 .gallery-5 {
+    position: absolute;
+    top: 330px;
+    left: 185px;
     margin: 0 10px 10px 0;
     width: 155px;
     background: #ff8c00;
 }
 
 .gallery-6 {
+    position: absolute;
+    top: 281px;
+    left: 350px;
     margin: 0 10px 10px 0;
     width: 155px;
     background: #483d8b;
+}
+
+.gallery-7 {
+    position: absolute;
+    top: 299px;
+    left: 515px;
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #ff8c00;
+}
+
+.gallery-8 {
+    position: absolute;
+    top: 590px;
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #483d8b;
+}
+
+.gallery-9 {
+    position: absolute;
+    top: 569px;
+    left: 185px;
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #e9967a;
+}
+
+.gallery-10 {
+    position: absolute;
+    top: 535px;
+    left: 350px;
+    margin: 0 10px 10px 0;
+    width: 155px;
+    background: #00ced1;
 }
 
 .gallery-1 img {
@@ -488,7 +607,11 @@ footer p {
 .gallery-3 img,
 .gallery-4 img,
 .gallery-5 img,
-.gallery-6 img{
+.gallery-6 img,
+.gallery-7 img,
+.gallery-8 img,
+.gallery-9 img,
+.gallery-10 img {
     width: 155px;
 }
 
@@ -514,4 +637,88 @@ footer p {
 
 .gallery-left-content p {
     line-height: 1.5;
+}
+
+.gallery-more {
+    position: relative;
+    left: -20px;
+    padding: 15px 0;
+    margin-top: 840px;
+    width: 700px;
+    text-align: center;
+    background: #fff;
+}
+
+.gallery-more a {
+    color: #666;
+}
+
+.gallery-ranking-wrap {
+    margin-top: 10px;
+    padding: 20px 0 20px 10px;
+    color: #666;
+    background: #fff;
+}
+
+.gallery-ranking-wrap h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-ranking-wrap li {
+    display: block;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.gallery-ranking-num {
+    float: left;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    background: #483d8b;
+}
+
+.gallery-ranking-outer {
+    float: left;
+    margin: 0 10px;
+    width: 120px;
+    height: 22px;
+    border: 1px  solid #483d8b;
+}
+
+.gallery-ranking-type {
+    line-height: 22px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+.gallery-ranking-1-inner {
+    height: 22px;
+    background: #483d8b;
+}
+
+.gallery-ranking-2-inner {
+    width: 80%;
+    height: 22px;
+    background: #483d8b;
+}
+
+.gallery-ranking-3-inner {
+    width: 60%;
+    height: 22px;
+    background: #483d8b;
+}
+
+.gallery-ranking-4-inner {
+    width: 40%;
+    height: 22px;
+    background: #483d8b;
+}
+
+.gallery-ranking-5-inner {
+    width: 20%;
+    height: 22px;
+    background: #483d8b;
 }
