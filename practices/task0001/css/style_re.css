@@ -722,3 +722,160 @@ footer p {
     height: 22px;
     background: #483d8b;
 }
+/* about.html */
+.about-main {
+    position: relative;
+    margin: 80px auto;
+    width: 980px;
+    height: 1400px;
+}
+
+.about-main-left {
+    position: relative;
+    float: left;
+    width: 488px;
+    height: 100%;
+    background: #fff;
+}
+
+.about-main-left p {
+    font-size: 20px;
+}
+
+.about-main-right {
+    position: relative;
+    float: right;
+    width: 488px;
+    height: 100%;
+    background: #fff;
+}
+
+.about-name,
+.about-contact-right,
+.about-education-right,
+.about-company-right {
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
+
+.about-contact-right {
+    top: 434px;
+}
+
+.about-education-right {
+    top: 694px;
+}
+
+.about-company-right {
+    top: 1054px;
+}
+
+.about-self-introduction,
+.about-contact-left,
+.about-education-left-senior,
+.about-education-left-college-1,
+.about-education-left-college-2,
+.about-company-left-1,
+.about-company-left-2  {
+    position: absolute;
+    top: 434px;
+    left: 80px;
+    line-height: 1.5;
+}
+
+.about-self-introduction {
+    top: 150px;
+    width: 300px;
+    text-indent: 2em;
+}
+
+.about-education-left-senior {
+    top: 694px;
+}
+
+.about-education-left-college-1 {
+    top: 760px;
+}
+
+.about-education-left-college-2 {
+    top: 826px;
+}
+
+.about-company-left-1 {
+    top: 1054px;
+}
+
+.about-company-left-2 {
+    top: 1120px;
+}
+
+.about-avatar {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 404px;
+    top: -56px;
+    border-radius: 86px;
+    border: 6px #e2e2e2 solid;
+}
+
+.about-phone,
+.about-education-pic,
+.about-company-pic {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 436px;
+    border-radius: 54px;
+    border: 4px #e2e2e2 solid;
+}
+
+.about-phone {
+     top: 280px;
+}
+
+.about-education-pic{
+    top: 540px;
+}
+
+.about-company-pic {
+    top: 900px;
+    background: #fff;
+}
+
+.edu-year-2008,
+.edu-year-2011,
+.edu-year-2015,
+.company-year-2014,
+.company-year-2015 {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 456px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 4px #e2e2e2 solid;
+    background: #fff;
+}
+
+.edu-year-2008 {
+    top: 694px;
+}
+
+.edu-year-2011 {
+    top: 760px;
+}
+
+.edu-year-2015 {
+    top: 826px;
+}
+
+.company-year-2014 {
+    top: 1054px;
+}
+
+.company-year-2015 {
+    top: 1120px;
+}
