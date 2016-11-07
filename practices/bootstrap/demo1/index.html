@@ -1,28 +1,167 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>首页</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default" role="navigaton">
+            <img src="images/LOGO.png">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">首页</a></li>
+                <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">产品</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">91桌面</a><li>
+                        <li><a href="#">黄历天气</a><li>
+                        <li><a href="#">91锁屏</a><li>
+                        <li><a href="#">羞兔</a><li>
+                        <li><a href="#">点心桌面</a><li>
+                        <li><a href="#">Mobo 桌面</a><li>
+                    </ul>
+                </li>
+                <li><a href="#">游戏</a></li>
+                <li><a href="#">支持</a></li>
+                <li><a href="#">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="banner-sp">
+            <img src="images/sp_b1_sub.jpg">
+        </div>
+    </div>
+    <div clas="index-main">
+        <div class="index-main-up">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/index_ico1.png"></a>
+                        <p><a href="#">91桌面</a></p>
+                        <p><a href="#">DIY混搭，绘出你个性</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/index_ico3_20160722.png"></a>
+                        <p><a href="#">91锁屏</a></p>
+                        <p><a href="#">最简单实用的锁屏软件</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/index_ico6.png"></a>
+                        <p><a href="#">安卓桌面</a></p>
+                        <p><a href="#">智能桌面，与众不同</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-main-down">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/index_ico2.png"></a>
+                        <p><a href="#">黄历天气</a></p>
+                        <p><a href="#">好天气好运气</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/dxzm_icon2_163x163.png"></a>
+                        <p><a href="#">点心桌面</a></p>
+                        <p><a href="#">简单好用，独一无二</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/index_ico4.png"></a>
+                        <p><a href="#">羞兔</a></p>
+                        <p><a href="#">超好玩的贴纸相机</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <table class="table">
+            <tbody>
+                <tr>
+                    <th>关于我们</th>
+                    <th>帮助与支持</th>
+                    <th>互相关注</th>
+                </tr>
+                <tr>
+                    <td><a href="#">公司介绍</a></td>
+                    <td><a href="#">支持中心</a></td>
+                    <td><a href="#">官方微博</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">隐私条款</a></td>
+                    <td><a href="#">常见问题</a></td>
+                    <td><a href="#">官方微信</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">免责声明</a></td>
+                    <td></td>
+                    <td><a href="#">官方邮箱</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">加入我们</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><a href="#">防沉迷，家长监护</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table> -->
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li class="h3">关于我们</li>
+                            <li><a href="#">公司介绍</a></li>
+                            <li><a href="#">隐私条款</a></li>
+                            <li><a href="#">免责声明</a></li>
+                            <li><a href="#">加入我们</a></li>
+                            <li><a href="#">防沉迷，家长监护</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li class="h3">帮助与支持</li>
+                            <li><a href="#">支持中心</a></li>
+                            <li><a href="#">常见问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li class="h3">互相关注</li>
+                            <li><a href="#">官方微博</a></li>
+                            <li><a href="#">官方微信</a></li>
+                            <li><a href="#">官方邮箱</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <p>© 2015-2016 福建风灵创景科技有限公司Felink.com 版权所有 闽ICP备15026663号-1 客服热线 0591-38129191</p>
+    </footer>
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
 </html>

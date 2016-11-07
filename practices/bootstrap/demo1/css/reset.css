@@ -1,0 +1,26 @@
+nav {
+    margin-bottom: 0 !important;
+    height: 70px;
+    line-height: 70px;
+    border: none !important;
+    background: #fff !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+.navbar ul li a{
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.navbar ul ul {
+    border: none;
+}
+
