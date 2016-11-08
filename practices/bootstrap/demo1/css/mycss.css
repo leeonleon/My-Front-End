@@ -15,6 +15,23 @@ header {
     width: 100%;
 }
 
+.banner-sp {
+    position: relative;
+}
+
+.banner-sp div img {
+    width: 80px;
+}
+
+.banner-sp div h2 {
+    font-size: 70px;
+}
+
+.banner-sp div {
+    position: absolute;
+    top: 0;
+}
+
 .navbar ul li a:hover {
     color: #3c79e7 !important;
 }
@@ -56,22 +73,6 @@ footer {
     background: #f7f7f7;
 }
 
-/*footer .table {
-    width: 850px;
-    margin: 0 auto;
-}
-
-footer .table th {
-    font-size: 24px;
-    color: #a1a1a1;
-    border: none !important;
-}
-
-footer .table td {
-    font-size: 16px;
-    border: none !important;
-}*/
-
 footer > div {
     width: 1100px;
     margin: 0 auto;
@@ -81,12 +82,18 @@ footer .h3 {
     color: #a1a1a1;
 }
 
-footer a {
-    text-align: left;
-}
-
 footer p {
     width: 980px;
     margin: 50px auto 0;
     color: #a1a1a1;
+}
+
+.footer-link a {
+    line-height: 40px;
+    font-size: 16px;
+    color: #696969 !important;
+}
+
+footer p button {
+    float: right;
 }
