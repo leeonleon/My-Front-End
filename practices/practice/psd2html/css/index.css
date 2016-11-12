@@ -176,6 +176,11 @@
     color: #6c6c6c;
 }
 
+.index-panel-body-item a {
+    display: inline-block;
+    color: #000;
+}
+
 .index-panel .index-panel-body-item .name {
     margin-top: 25px;
 }
